@@ -37,15 +37,11 @@ Configuration
 - Propriété pour le port : `server.port`
 - Base en mémoire par défaut : `jdbc:h2:mem:banque`
 
-Dépannage rapide
-- Erreur Maven/PowerShell : utiliser `;` et l'opérateur d'invocation `&` pour `.\mvnw.cmd`.
-- Port déjà utilisé (ex: 8082) : arrêter le processus écoutant ce port ou changer `server.port`.
-- Erreurs de compilation du type `class, interface, enum, or record expected` : vérifier la première ligne de chaque fichier Java (package/imports) et s'assurer qu'il n'y a pas de texte ou caractères avant la déclaration de package/classe.
-- Avertissements `jakarta.persistence.Temporal` : annotation dépréciée, envisager d'utiliser `java.time` et les annotations appropriées.
 
 Tests
 - Lancer les tests :
     & .\mvnw.cmd test
+  
+<img width="960" height="510" alt="QL1" src="https://github.com/user-attachments/assets/d90a53d8-d467-482e-9aa1-dbed024eccd3" />
 
-Licence
-- À préciser (par ex. `MIT`)
+
